@@ -1,4 +1,4 @@
-# Caixa Fácil Vila Buriti — MVP
+# Caixa Fácil FMF
 
 **Projeto de Extensão Universitária** — Centro Universitário Martha Falcão Wyden  
 **Disciplina:** Tópicos de Big Data em Python | **Docente:** Prof. Ranyere Lima  
@@ -10,7 +10,7 @@
 
 ## 🏛️ Visão Geral e Propósito
 
-O **Caixa Fácil Vila Buriti** é uma aplicação web interativa desenvolvida em Python e Streamlit projetada para levar inteligência financeira e previsibilidade de caixa aos pequenos comerciantes locais (mercadinhos, lanchonetes e bazares). 
+O **Caixa Fácil** é uma aplicação web interativa desenvolvida em Python e Streamlit projetada para levar inteligência financeira e previsibilidade de caixa aos pequenos comerciantes locais (mercadinhos, lanchonetes e bazares). 
 
 Combinando usabilidade visual ágil inspirada em **Nubank PJ**, **Mercado Pago**, **Conta Azul** e **Kyte**, o MVP traduz indicadores contábeis complexos em respostas claras: *Quanto sobrou de verdade? Meu pró-labore está coberto? Para onde foi cada R$ 100 faturado? Quanto devo guardar para o mês mais fraco do ano?*
 
@@ -85,10 +85,3 @@ streamlit run app.py
 Acesse no navegador: `http://localhost:8501`
 
 ---
-
-## ☁️ Como Publicar no Streamlit Community Cloud
-
-1. Crie um repositório público no GitHub (ex.: `caixa-facil-vila-buriti`) e envie todos os arquivos do projeto (`app.py`, `logic.py`, `styles.py`, `requirements.txt`, `.streamlit/config.toml`, `data/`).
-2. Acesse [share.streamlit.io](https://share.streamlit.io), faça login com sua conta GitHub e clique em **Create app**.
-3. Selecione o repositório, branch `main` e defina `app.py` como arquivo principal (*Main file path*).
-4. Clique em **Deploy!**. Após a inicialização, utilize o link público gerado (ex.: `https://caixa-facil-vila-buriti.streamlit.app`) para gerar o QR Code da apresentação acadêmica.
